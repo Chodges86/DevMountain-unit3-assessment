@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./myneighborhood.html">My Neighborhood</a></li>
+      </ol>
+    </nav>
+    <img src="/images/ProfilePic.png" alt="" />
+    <h1>Skills</h1>
+    <ul class="columns">
+      <li>Swift</li>
+      <li>UIKit</li>
+      <li>Xcode</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <h1>Career Goal</h1>
+    <p>
+      My goal is to complete DevMountain iOS development bootcamp and get a job
+      as a Jr. iOS Developer. Then I plan to continue developing my skillset
+      until I can advance my way up to a Sr. Developer position or possibly
+      become a freelance developer. I would love to be able to work remotely and
+      one day be in a position that my job allows me to travel while still being
+      able to earn an income.
+    </p>
+    <h1>My Interests/Hobbies</h1>
+    <ul class="columns">
+      <li>Hunting/Fishing</li>
+      <li>Camping with my family</li>
+      <li>Coding</li>
+      <li>Kayaking</li>
+      <li>Hanging out with my family</li>
+      <li>Playing guitar</li>
+    </ul>
+    <h1>Your Interests/Hobbies</h1>
+    <form id="hobby-form">
+      <input type="text" placeholder="Enter your Hobbies" id="hobby" /><br />
+      <button class="button">Add Hobby</button>
+    </form>
+    <ul class="columns" id="user-hobbies"></ul>
+    <h1>My Favorites</h1>
+    <button id="color" class="fav-button">My Favorite Color</button>
+    <button id="place" class="fav-button">My Favorite Place</button>
+    <button id="ritual" class="fav-button">My Favorite Ritual</button>
+    <br />
+    <br />
+    <a href="./home.html"> Back </a>
+    <script src="profile.js"></script>
+  </body>
+</html>

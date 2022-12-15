@@ -1,0 +1,113 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+	border-bottom: 2px solid #25316D;
+}
+
+nav {
+	border-bottom: 2px solid #25316D;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: #5F6F94;
+}
+
+a:visited {
+	color: #5F6F94;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.display-inline {
+	display: inline;
+}
+
+.columns {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 60px;
+}
+
+.button {
+	height: 35px;
+	width: 150px;
+	border-radius: 7%;
+	background-color: #25316D;
+	border-style: hidden;
+	color: white;
+	box-shadow: -5px 5px 5px 1px gray;
+}
+
+input {
+	height: 25px;
+	border-radius: 4%;
+	border: solid white;
+}
+
+
+.fav-button {
+	height: 100px;
+	width: 150px;
+	border-radius: 15%;
+	background-color: #FEF5AC;
+	color: #25316D;
+	font-size: large;
+	font-weight: bold;
+	box-shadow: -5px 5px 5px 1px gray;
+}
+
+.gallery {
+	height: 500px;
+	width: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-evenly;
+	background-color: white;
+	border-radius: 5%;
+}
+
+img {
+	border-radius: 5%;
+}
+
+#rec-btn {
+	height: 50px;
+	width: 200px;
+	border-radius: 6%;
+	background-color: #25316D;
+	border-style: hidden;
+	color: white;
+	box-shadow: -5px 5px 5px 1px gray;
+	font-size: medium;
+	font-weight: bold;
+}
+
+#recommendation {
+	display: flex;
+	justify-content: space-around;
+}
